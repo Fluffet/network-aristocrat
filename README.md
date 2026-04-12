@@ -4,7 +4,7 @@ Your coworkers' computers have operating systems that put WiFi packets in first 
 
 This script allows you to mark your outgoing packets with other traffic tiers. There are 4: voice > video > best-effort > background.
 
-WiFi access points see those tags and go "ah yes, right this way sir." Your Linux? Every packet gets the same best-effort treatment. Your Meet call is effectively in the same queue as someone's iCloud backup.
+WiFi access points see those tags and go "ah yes, right this way sir." Your Linux? Sadly, every packet gets the "best-effort" treatment. Your Meet call is effectively in the same queue as someone's iCloud backup.
 
 This has been the case since... forever. There are iptables one-liners buried in forum posts from 2010. There's a kernel doc that three people have read. Thought I'd publish this tool you can just run and finally elbow your way into pristine HD.
 
