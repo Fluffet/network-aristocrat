@@ -15,7 +15,7 @@ If you don't want to stop at just fixing calls, you can become a Network King or
 ## Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/network-aristocrat.git
+git clone https://github.com/Fluffet/network-aristocrat.git
 cd network-aristocrat
 chmod +x network-aristocrat.sh
 sudo ./network-aristocrat.sh
